@@ -19,3 +19,153 @@ Day 6: Solve simple problems with algorithms, data structures, and recursion.
 Day 7: Generate ASCII Art using JavaScript.
 
 JavaScript is a high level, dynamic, interpreted programming language. Along with HTML and CSS, it's one of the three essential technologies used in Web content production. The majority of websites employ JavaScript, and it's supported by all modern web browsers without plugins.
+
+----------------------
+Day 1: Print The Inputlocked
+Use what you learned in the previous challenge to complete the  function by printing the  parameter to the console.
+Input Format
+The first and only line of input contains a string.
+
+Constraints
+String length <=500
+
+Sample Input
+How many chickens does it take to cross the road?
+
+Sample Output
+How many chickens does it take to cross the road?
+
+--------
+
+Day 2: Introducing Arithmetic Operators
+
+Here is the list of JavaScript arithmetic operators:
+
++  : Addition
+-  : Subtraction
+*  : Multiplication
+/  : Division
+%  : Modulus
+++ : Increment
+-- : Decrement
+The order of precedence of arithmetic operators from high to low follows:
+
+++, --
+*, /, %
++, -
+
+
+Addition
+
+SAMPLE CODE
+
+var a = 1;
+var b = 2;
+
+var ans = a + b;
+
+console.log(ans);
+OUTPUT
+
+3
+Subtraction
+
+SAMPLE CODE
+
+var a = 1;
+var b = 2;
+
+var ans = a - b;
+
+console.log(ans);
+OUTPUT
+
+-1
+Multiplication
+
+SAMPLE CODE
+
+var a = 3;
+var b = 2;
+
+var ans = a * b;
+
+console.log(ans);
+OUTPUT
+
+6
+Division
+
+SAMPLE CODE
+
+var a = 3;
+var b = 2;
+
+var ans = a / b;
+
+console.log(ans);
+OUTPUT
+
+1.5
+Modulus
+
+SAMPLE CODE
+
+var a = 3;
+var b = 2;
+
+var ans = a % b;
+
+console.log(ans);
+OUTPUT
+
+1
+Increment
+The increment operator has 2  forms:
+
+Preincrement: The increment operator is prefixed to a variable, and it ensures that the variable's value will be incremented by 1 before it is used.
+Postincrement: The increment operator is postfixed to a variable, and it ensures that the variable's value will be incremented by 1 after it is used.
+SAMPLE CODE
+
+var a = 3; 
+
+// preincrement: 'a' is incremented before being assigned to 'ans' 
+var ans = ++a; 
+// postincrement: 'ans' is not incremented until after the line is printed.
+console.log(ans++); 
+console.log(ans);
+OUTPUT
+
+4
+5
+Decrement
+The decrement operator has  forms:
+
+Predecrement: The decrement operator is prefixed to a variable, and it ensures that the variable's value will be decremented by 1 before it is used.
+Postdecrement: The decrement operator is postfixed to a variable, and it ensures that the variable's value will be decremented by 1 after it is used.
+SAMPLE CODE
+
+var a = 3; 
+// predecrement: 'a' is decremented before being assigned to 'ans' 
+var ans = --a; 
+
+// postdecrement: 'ans' is not decremented until after the line is printed.
+console.log(ans--); 
+console.log(ans);
+OUTPUT
+
+2
+1
+Task
+
+Given two numeric variables, a and b, write the following:
+
+Create a variable, add , and assign it the sum of  and .
+Create a variable, sub, and assign it result of  subtracted from .
+Create a variable,mul , and assign it the product of  and .
+Create a variable,div , and assign it the result of of  divided by .
+Create a variable, inc, and assign it the preincremented value of .
+Create a variable,dec, and assign it the predecremented value of .
+Note: Do not create variables a  and b. They have already been declared and initialized by our hidden code checker.
+
+------------
